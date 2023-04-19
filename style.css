@@ -1,0 +1,111 @@
+#masterPlay{
+    width: 20px;
+    height: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width: 60px;
+}
+body{
+    background-color: rgb(64, 202, 156);
+}
+
+nav{
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    font-family: 'Nerko One', cursive;
+    padding:0px 12px;    
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 65px; 
+}
+.logo{
+    display:flex;
+align-items: center;
+font-weight: bolder;
+font-size: 1.5rem;
+padding: 0px 5px;
+}
+.main{
+    min-height: 61vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin:23px auto;
+    width: 80%;
+    border-radius:12px;
+    padding: 10px;
+    background-image: url('pg.jpg');
+background-repeat: no-repeat;
+background-size: cover;    
+cursor: pointer;
+}    
+/* .songlist{
+    background-color: lavender;
+} */
+.gif{
+    height: 40px;
+    display: flex;
+    background-color: rgb(229, 229, 153);
+    color: black;
+    width: 80%;
+    margin: 12px 0px;
+    border-radius: 23px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.time{
+    padding: 5px;
+}
+.gif{
+    font-family: 'Nerko One', cursive;
+
+}
+.gif img{
+    padding: 0px 6px;
+    width:30px;
+    border-radius: 34px;
+}
+.bottom{
+    position: sticky;
+    height: 90px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 125, 172);
+    color: white;
+    flex-direction: column;
+}
+#myprogressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    /* color: white; */
+    margin: 12px 0px;
+cursor: pointer;
+
+}
+.animated img{
+    width: 100px;
+    height:8px;
+    position: absolute;
+    left: 0;
+   
+}
+#gif{
+    opacity:0;
+   transition: opacity 0.4s ease-in;
+    
+}
